@@ -1,0 +1,53 @@
+site_name: NixOS Öğreniyoruz - Murat Çabuk
+site_url: https://nixogreniyoruz.kavakci.dev
+docs_dir: src
+repo_url: https://github.com/LinuxTurkey/nix-ogreniyoruz
+repo_name: LinuxTurkey/nix-ogreniyoruz
+edit_uri: edit/main/src/
+use_directory_urls: false
+plugins: 
+  - social:
+      cards_layout_options:
+        logo: assets/logo.png
+  - search
+  - mkdocs-jupyter:
+          execute: true
+          include_requirejs: true
+  - offline
+markdown_extensions: 
+  - admonition
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - footnotes
+theme:
+  name: material
+  icon:
+    logo: simple/nixos
+    annotation: material/circle-medium
+  favicon: assets/favicon.png
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.sections
+    - navigation.prune 
+    - content.action.edit
+    - content.action.view
+    - search.suggest
+    - search.highlight
+  language: tr
+  palette: 
+    - media: "(prefers-color-scheme: light)"
+      scheme: slate
+      primary: "#7EBAE4"
+      accent: "#7EBAE4"
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: default
+      primary: "#7EBAE4"
+      accent: "#7EBAE4"
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
