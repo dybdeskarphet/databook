@@ -1,8 +1,8 @@
-site_name: NixOS Öğreniyoruz - Murat Çabuk
-site_url: https://nixogreniyoruz.kavakci.dev
+site_name: Databook
+site_url: https://databook.kavakci.dev
 docs_dir: src
-repo_url: https://github.com/LinuxTurkey/nix-ogreniyoruz
-repo_name: LinuxTurkey/nix-ogreniyoruz
+repo_url: https://github.com/dybdeskarphet/databook
+repo_name: dybdeskarphet/databook
 edit_uri: edit/main/src/
 use_directory_urls: false
 plugins: 
@@ -23,7 +23,7 @@ markdown_extensions:
 theme:
   name: material
   icon:
-    logo: simple/nixos
+    logo: material/google-analytics
     annotation: material/circle-medium
   favicon: assets/favicon.png
   features:
@@ -39,15 +39,19 @@ theme:
   palette: 
     - media: "(prefers-color-scheme: light)"
       scheme: slate
-      primary: "#7EBAE4"
-      accent: "#7EBAE4"
+      primary: green
+      accent: green
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
     - media: "(prefers-color-scheme: dark)"
       scheme: default
-      primary: "#7EBAE4"
-      accent: "#7EBAE4"
+      primary: green
+      accent: green
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
+nav:
+  - Introduction: index.md
+  - Practices:
+    - iMDB Analysis: movie_analysis.ipynb
