@@ -11,3 +11,5 @@ wheels/
 .env
 site
 .cache
+**/.ipynb_checkpoints
+.vscode
