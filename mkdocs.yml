@@ -13,12 +13,15 @@ plugins:
   - mkdocs-jupyter:
           execute: true
           include_requirejs: true
+          custom_mathjax_url: "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS_CHTML-full,Safe" 
   - offline
 markdown_extensions: 
   - admonition
   - md_in_html
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
   - footnotes
 theme:
   name: material
@@ -55,3 +58,6 @@ nav:
   - Introduction: index.md
   - Practices:
     - iMDB Analysis: movie_analysis.ipynb
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
