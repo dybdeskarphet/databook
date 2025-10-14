@@ -57,7 +57,10 @@ theme:
 nav:
   - Introduction: index.md
   - Practices:
-    - iMDB Analysis: movie_analysis.ipynb
+    - "Intro: iMDB Analysis": 00_movie_analysis.ipynb
+    - Exploratory Data Analysis: 
+      - Coding Part: 01_exploratory_data_analysis.ipynb
+      - Handwritten Notes: notes/01_exploratory_data_analysis.pdf
 extra_javascript:
   - javascripts/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
