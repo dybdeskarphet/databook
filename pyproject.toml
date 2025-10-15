@@ -10,8 +10,10 @@ dependencies = [
   "mkdocs-jupyter>=0.25.1",
   "mkdocs-material[imaging]>=9.6.21",
   "pandas>=2.3.3",
+  "scikit-learn>=1.7.2",
   "seaborn>=0.13.2",
   "tk>=0.1.0",
+  "wquantiles>=0.6",
 ]
 
 [tool.pytest.ini_options]
