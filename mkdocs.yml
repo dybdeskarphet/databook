@@ -38,7 +38,7 @@ theme:
     - content.action.view
     - search.suggest
     - search.highlight
-  language: tr
+  language: en
   palette: 
     - media: "(prefers-color-scheme: light)"
       scheme: slate
