@@ -60,7 +60,9 @@ nav:
     - 00_movie_analysis.ipynb
     - Exploratory Data Analysis: 
       - 01_location_estimates.ipynb
+      - 02_variability_estimates.ipynb
       - Handwritten Notes: notes/01_exploratory_data_analysis.pdf
+
 extra_javascript:
   - javascripts/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
