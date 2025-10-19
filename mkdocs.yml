@@ -61,6 +61,7 @@ nav:
     - Exploratory Data Analysis: 
       - 01_location_estimates.ipynb
       - 02_variability_estimates.ipynb
+      - 03_exploring_data_distribution.ipynb
       - Handwritten Notes: notes/01_exploratory_data_analysis.pdf
 
 extra_javascript:
