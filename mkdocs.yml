@@ -62,6 +62,7 @@ nav:
       - 01_location_estimates.ipynb
       - 02_variability_estimates.ipynb
       - 03_exploring_data_distribution.ipynb
+      - 04_exploring_binary_and_categorical_data.ipynb
       - Handwritten Notes: notes/01_exploratory_data_analysis.pdf
 
 extra_javascript:
