@@ -66,3 +66,5 @@ nav:
       - 05_correlation.ipynb
       - 06_exploring_two_or_more_variables.ipynb
       - Handwritten Notes: notes/01_exploratory_data_analysis.pdf
+    - Data and Sampling Distributions:
+      - Handwritten Notes: notes/02_data_and_sampling_distributions.pdf
