@@ -12,6 +12,6 @@ This repo includes my notes, code snippets, and small experiments following the 
 
 ## See also
 
-:fontawesome-brands-github:{ style="color: #ffffff" } [Practical Statistics for Data Scientists GitHub Repo](https://github.com/gedeck/practical-statistics-for-data-scientists) <br/>
-:fontawesome-brands-github:{ style="color: #ffffff" } [mkdocs-jupyter](https://github.com/danielfrg/mkdocs-jupyter) <br/>
-:fontawesome-brands-github:{ style="color: #ffffff" } [mkdocs-material](https://squidfunk.github.io/mkdocs-material/) <br/>
+- :fontawesome-brands-github: [Practical Statistics for Data Scientists GitHub Repo](https://github.com/gedeck/practical-statistics-for-data-scientists) <br/>
+- :fontawesome-brands-github: [mkdocs-jupyter](https://github.com/danielfrg/mkdocs-jupyter) <br/>
+- :fontawesome-brands-github: [mkdocs-material](https://squidfunk.github.io/mkdocs-material/) <br/>
