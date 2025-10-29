@@ -22,8 +22,7 @@ markdown_extensions:
      emoji_index: !!python/name:material.extensions.emoji.twemoji
      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.superfences
-  - pymdownx.arithmatex:
-      generic: true
+  - pymdownx.arithmatex
   - footnotes
 theme:
   name: material
@@ -70,4 +69,5 @@ nav:
       - Handwritten Notes: notes/01_exploratory_data_analysis.pdf
     - Data and Sampling Distributions:
       - 02_chapter/01_sampling_distribution_of_statistic.ipynb
+      - 02_chapter/02_bootstrap.ipynb
       - Handwritten Notes: notes/02_data_and_sampling_distributions.pdf
